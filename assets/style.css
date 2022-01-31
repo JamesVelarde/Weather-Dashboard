@@ -1,22 +1,37 @@
-.forecast-card p {
-    /* margin: 20px; */
-    font-size: 12px;
+.row {
+    min-height: 85vh;
 }
 
-.search-history {
-    flex-direction: column;
+.color-low {
+    background-color: rgb(252, 236, 6);
+    padding: 3px;
+    border-radius: 5px;
 }
 
-#current-city,
-.weather-icon {
-    display: inline-block;
+.color-mod {
+    background-color:  rgb(252, 166, 6);
+    padding: 3px;
+    border-radius: 5px;
 }
 
-.weather-icon {
-    margin-left: 10px;
+.color-high {
+    background-color:  rgb(252, 117, 6);
+    padding: 3px;
+    border-radius: 5px;
 }
 
-.weather-icon-small {
-    padding-left: auto;
-    padding-right: auto;
+.color-veryHigh {
+    background-color:  rgb(252, 84, 6);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.color-extreme {
+    background-color:  rgb(252, 6, 6);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
 }
